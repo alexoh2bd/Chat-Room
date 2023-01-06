@@ -1,6 +1,4 @@
 Authors: Alex Oh and Aiden Pape
-Known Bugs: Invalid address input (client), Invalid port input (Client and Server),
+Possible Bugs: 
+            Invalid address input (client), Invalid port input (Client and Server),
             Segfaults when accessing memory through threads. 
-Resourses:
-
-strtok      https://www.educative.io/answers/splitting-a-string-using-strtok-in-c   
