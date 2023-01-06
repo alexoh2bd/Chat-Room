@@ -1,4 +1,9 @@
 Authors: Alex Oh and Aiden Pape
+Description:
+            Chat-room written in C. Allows an unspecified number of clients to connect to the server at a specified port. 
+            On the client side, created one thread to receiv incoming messages from the server and one thread to send messages to the server.
+            On the server side, established a new thread to listen to each new client and send received messages to all clients.
+            
 Possible Bugs: 
             Invalid address input (client), Invalid port input (Client and Server),
             Segfaults when accessing memory through threads. 
