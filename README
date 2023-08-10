@@ -1,7 +1,15 @@
 Authors: Alex Oh and Aiden Pape
+Directions To Run:  
+            1. Fork and enter the directory via terminal using a Linux machine. 
+            2. Run the command "make all".
+            3. Start the server by running the command "./chat-server [port_number]", [port_number] being a specified port.
+            4. In another terminal, connect a client to the server using the command "./chat-client [hostname] [port_number]", [hostname] being the host's ip address, and [port_number] being the host's port. You may connect an unspecifie
+            5. You may change your username by entering in the chat "/nick [username]". 
+            6. Enjoy!!!
+
 Description:
             Chat-room written in C. Allows an unspecified number of clients to connect to the server at a specified port. 
-            On the client side, created one thread to receiv incoming messages from the server and one thread to send messages to the server.
+            On the client side, created one thread to receive incoming messages from the server and one thread to send messages to the server.
             On the server side, established a new thread to listen to each new client and send received messages to all clients.
             
 Possible Bugs: 
